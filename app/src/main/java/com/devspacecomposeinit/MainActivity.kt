@@ -51,7 +51,7 @@ class MainActivity : ComponentActivity() {
                         name = "Pablo Picasso",
                         lastSeenOnline = "3 min",
                         image = R.drawable.ic_pablo_picasso,
-                        art = R.drawable.ic_mona_lisa
+                        art = R.drawable.ic_beijo
                     )
 
                     val leonardo = Artist(
@@ -97,11 +97,12 @@ fun ArtistCardRow(
 ) {
     Column(
         modifier = Modifier
-            .padding(16.dp)
+            .padding(8.dp)
             .clickable(onClick = onClick)
     ) {
         Row(
             modifier = Modifier
+                .padding(8.dp)
                 .fillMaxWidth(),
             verticalAlignment = Alignment.CenterVertically
         ) {
@@ -124,8 +125,9 @@ fun ArtistCardRow(
                 )
             }
         }
-        Spacer(modifier = Modifier.size(16.dp))
+        Spacer(modifier = Modifier.size(4.dp))
         Card(
+            modifier = Modifier.padding(8.dp),
             elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
         ) {
             Image(
