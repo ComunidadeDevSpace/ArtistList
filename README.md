@@ -5,9 +5,6 @@ Esse projeto é um aplicativo Android nativo desenvolvido com a lingagem de prog
 <!-- You can add more screenshots here if you like -->
 <img src="https://github.com/ComunidadeDevSpace/ComposeInit/assets/11612508/4def44a9-b377-4e9c-b3b7-19cec8599e6d" width=260/>
 
-
-![img_artists]()
-
 ## Tecnologias
 - 100% Kotlin
 - Compose
